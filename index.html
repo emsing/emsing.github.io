@@ -9,6 +9,30 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
   </head>
 <body>
+  
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+
+  <script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyA5bj5jfdne_QS30HK5_GOFF1j073nEnHE",
+    authDomain: "stagemanagerbestfriend.firebaseapp.com",
+    projectId: "stagemanagerbestfriend",
+    storageBucket: "stagemanagerbestfriend.appspot.com",
+    messagingSenderId: "856688153219",
+    appId: "1:856688153219:web:104ee60e3ac7e4918e01b6"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const db = firebase.firestore()
+</script>
+
+<script src="db.js"></script>
+<script src="app.js"></script>
+
+
 <h1>The stage Managers best friend</h1>
 <p>Building a page to aid stage manager's and similar in keeping track of stuff</p>
 <footer>
